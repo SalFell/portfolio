@@ -1,14 +1,19 @@
 <script>
   const projects = [
     {
+      title: "KC Studios - Sun's Edge",
+      description: "Developed multitude of character abilities and status effects.",
+      url: "https://www.kcstudios.games/",
+    },
+    {
+      title: "trAIder",
+      description: "Created stock market strategy analyzer using Node.js and React",
+      url: "https://github.com/SalFell/CPSC362",
+    },
+    {
       title: "Intro to Game Design",
       description: "Developed simple games using Python and PyGame",
       url: "https://github.com/SalFell/CPSC-386-Game-Design",
-    },
-    {
-      title: "x86 Assembly",
-      description: "Developed various simple programs using x86 Assembly and hybrid C",
-      url: "https://github.com/SalFell/CPSC240-x86-Assembly",
     },
   ];
 </script>
