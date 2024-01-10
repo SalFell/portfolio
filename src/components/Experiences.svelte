@@ -1,16 +1,20 @@
 <script>
   const exps = [
     {
+      title: "Thales Avionics QA/QC Assistant",
+      duration: "Jan 2024 - Present",
+    },
+    {
       title: "Crescent Software Inc. Software Development Intern",
       duration: "June 2023 - Present",
     },
     {
       title: "CSU Fullerton Center for Computational and Applied Mathematics Student Assistant",
-      duration: "Aug 2022 - Present",
+      duration: "Aug 2022 - Jan 2024",
     },
     {
       title: "CSU Fullerton HRDI VP Ops Student Assistant",
-      duration: "Aug 2021 - Present",
+      duration: "Aug 2021 - Jan 2024",
     },
     {
       title: "CSU Fullerton Math Department Student Assistant",
