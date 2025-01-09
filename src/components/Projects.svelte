@@ -2,7 +2,7 @@
   const projects = [
     {
       title: "KC Studios - Sun's Edge",
-      description: "Developed multitude of character abilities and status effects.",
+      description: "Designed and implemented multitude of character abilities, status effects, and game systems.",
       url: "https://www.kcstudios.games/",
     },
     {

@@ -10,7 +10,7 @@
     <p class="header--small">Hi, I'm {name}</p>
     <p class="header--big">WELCOME TO MY PORTFOLIO</p>
     <p class="header--small">
-      I'm a Computer Science student at CSU Fullerton. I'm passionate about
+      I'm a Computer Science graduate from CSU Fullerton. I'm passionate about
       software development and  game development. I'm always looking for new
       opportunities to learn and grow.
     </p>

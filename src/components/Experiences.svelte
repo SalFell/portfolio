@@ -5,7 +5,7 @@
       duration: "Jan 2024 - Present",
     },
     {
-      title: "Crescent Software Inc. Software Development Intern",
+      title: "Crescent Software Inc. Software Developer",
       duration: "June 2023 - Present",
     },
     {
