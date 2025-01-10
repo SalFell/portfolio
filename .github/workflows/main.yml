@@ -24,4 +24,8 @@ jobs:
           path: .
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v4.0.5
-        
+
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
