@@ -16,6 +16,8 @@ jobs:
         run: npm run build
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: SalFell.github.io/dist/
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v4.0.5
             
