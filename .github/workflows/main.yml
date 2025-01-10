@@ -6,26 +6,31 @@ on:
       - main
 
 jobs: 
-  call-reusable-workflow:
-    runs-on: ubuntu-latest
+  build:
     permissions:
       pages: write
       id-token: write
       contents: read
+    runs-on: ubuntu-latest
     steps:
       # This step checks out a copy of the repository.
       - name: Checkout
         uses: actions/checkout@v4.2.2
+      # This step builds static files
       - name: Build static files
         run: npm run build
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: .
-      - name: Deploy GitHub Pages site
-        uses: actions/deploy-pages@v4.0.5
 
   deploy:
+    permissions:
+      contents: none
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+    steps:
+      # Deploy build to github pages
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v4.0.5
