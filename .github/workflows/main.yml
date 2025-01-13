@@ -17,13 +17,17 @@ jobs:
       # This step checks out a copy of the repository.
       - name: Checkout
         uses: actions/checkout@v4.2.2
+        with:
+          submodules: true
       # This step builds static files
       - name: Build static files
-        run: npm run build
+        run: |
+          npm install
+          npm run build --if-present
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          name: node-app
+          name: portfolio
           path: .
 
   deploy:
@@ -38,7 +42,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
-          name: node-app
+          name: portfolio
       # Deploy build to github pages
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v4.0.5
