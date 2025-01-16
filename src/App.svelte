@@ -1,6 +1,5 @@
 <script>
   import About from "./components/About.svelte";
-  import Experiences from "./components/Experiences.svelte";
   import NavBar from "./components/NavBar.svelte";
   import Projects from "./components/Projects.svelte";
   import Socials from "./components/Socials.svelte";
@@ -10,7 +9,6 @@
   <NavBar />
   <div>
     <About name={"Salvador Felipe"} />
-    <Experiences />
     <Projects />
     <Socials />
   </div>

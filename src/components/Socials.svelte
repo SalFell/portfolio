@@ -1,29 +1,27 @@
 <script>
   const socials = [
     {
-      title: "Github Profile",
+      title: "Github",
       url: "https://github.com/SalFell",
+      image:"https://cdn.cdnlogo.com/logos/g/55/github.svg"
     },
     {
-      title: "LinkedIn Profile",
+      title: "LinkedIn",
       url: "https://www.linkedin.com/in/salvador-felipe-38b396217",
-    },
-    {
-      title: "Email",
-      url: "mailto: salvadorfelipe77@hotmail.com",
-    },
+      image: "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+    }
   ];
 </script>
 
 <section class="container__socials" id="Socials">
   <p class="header--big">Socials</p>
-  {#each socials as { title, url }}
-    <div class="container__project">
-      <a href={url} target="_blank">
-        <p class="header__title">{title}</p>
-      </a>
-    </div>
-  {/each}
+  <div class="container__social">
+    {#each socials as { title, url, image }}
+        <a href={url} target="_blank">
+          <img src={image} alt={title} width="40" height="40"/>
+        </a>
+    {/each}
+  </div>
 </section>
 
 <style>
@@ -36,17 +34,12 @@
   .header--big {
     font-size: 2.5rem;
     font-weight: 780;
+    color: aliceblue;
   }
-  .container__project {
+  .container__social {
     margin: 1rem;
-  }
-  .header__title {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 600;
-    transition: 400ms all;
-  }
-  .header__title:hover {
-    color: #2c91c6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 </style>

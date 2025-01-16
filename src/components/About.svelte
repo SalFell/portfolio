@@ -8,10 +8,10 @@
     <img width={150} height={225} src={frank} alt="" />
    <!-- We're using the props here -->
     <p class="header--small">Hi, I'm {name}</p>
-    <p class="header--big">WELCOME TO MY PORTFOLIO</p>
+    <p class="header--big">WELCOME TO MY GAME DEVELOPMENT PORTFOLIO</p>
     <p class="header--small">
       I'm a Computer Science graduate from CSU Fullerton. I'm passionate about
-      software development and  game development. I'm always looking for new
+      game systems design and development. I'm always looking for new
       opportunities to learn and grow.
     </p>
   </div>
@@ -26,6 +26,7 @@
   }
   .header--small {
     font-size: 1.5rem;
+    color:aliceblue;
     margin: 2rem 0 0 0;
     font-weight: 600;
   }
