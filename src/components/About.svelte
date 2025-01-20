@@ -1,11 +1,11 @@
 <script>
   export let name; // receive props ```name```
-  import frank from "../assets/selfie.svg";
+  import frank from "../assets/selfie.jpg";
 </script>
 
 <section>
   <div class="container__about" id="About">
-    <img width={150} height={225} src={frank} alt="" />
+    <img width={200} height={225} src={frank} alt="Headshot of Salvador" />
    <!-- We're using the props here -->
     <p class="header--small">Hi, I'm {name}</p>
     <p class="header--big">WELCOME TO MY GAME DEVELOPMENT PORTFOLIO</p>
