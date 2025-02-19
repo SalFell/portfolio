@@ -10,8 +10,8 @@
     <img width={200} height={225} src={frank} alt="Headshot of Salvador" />
     <p class="header--small">
       Welcome to my portfolio! <br>
-      I am a Computer Science Graduate from CSU Fullerton and am passionate about game systems design and development.
-       I started my game development journey in 2019 with simple terminal-based games made using Python. Currently 
+      I am a Computer Science Graduate from CSU Fullerton and am passionate about systems design and development.
+       I started my game development journey in 2019 with simple terminal-based games using Python. Currently, I am 
        partnered with the indie team at KC Studios primarily as a Systems Developer for the early-access game, 
        Sun's Edge. I have also started my own project, Lean and Loot, which now has a playable demo!
     </p>
@@ -30,6 +30,7 @@
     color:aliceblue;
     margin: auto;
     font-weight: 600;
+    text-align: left;
   }
 
   .header--big {
