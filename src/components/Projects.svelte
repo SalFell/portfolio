@@ -11,8 +11,8 @@
       "Created metrics gym to help with player movement and level design\n"+
       "Implemented core movement mechanics and AI behavior\n"+
       "Designed and implemented simple UI to navigate the game and adjust visual and audio settings",
-      url: "",
-      ytid: "",
+      url: "https://salfell.itch.io/lean-and-loot",
+      ytid: "U_SxnTr-6J0",
     },{
       title: "KC Studios - Sun's Edge",
       role: "Systems Developer",
