@@ -7,8 +7,8 @@
 <main>
   <NavBar />
   <div>
-    <About />
     <Projects />
+    <About />
   </div>
   <p class="disclaimer">All images, logos, and names are used with permission</p>
 </main>

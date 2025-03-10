@@ -2,6 +2,15 @@
 
   const projects = [
     {
+      title: "KC Studios - Sun's Edge",
+      role: "Systems Developer",
+      description: "Designed and implemented gameplay systems for character abilities and inventory in Unreal Engine 5\n"+
+      "Utilized Trello to track progress and prioritize tasks\n"+
+      "Used Unreal's debugger and profiler to identify and fix bugs and optimize performance",
+      url: "https://store.steampowered.com/app/2174210/Suns_Edge/",
+      ytid: "Gstcu4UTXRQ",
+    },
+    {
       title: "Lean and Loot",
       role: "Solo Developer",
       description: "Developed a movement based first-person stealth demo in Unreal Engine 5\n"+
@@ -13,14 +22,6 @@
       "Designed and implemented simple UI to navigate the game and adjust visual and audio settings",
       url: "https://salfell.itch.io/lean-and-loot",
       ytid: "U_SxnTr-6J0",
-    },{
-      title: "KC Studios - Sun's Edge",
-      role: "Systems Developer",
-      description: "Designed and implemented gameplay systems for character abilities and inventory in Unreal Engine 5\n"+
-      "Utilized Trello to track progress and prioritize tasks\n"+
-      "Used Unreal's debugger and profiler to identify and fix bugs and optimize performance",
-      url: "https://store.steampowered.com/app/2174210/Suns_Edge/",
-      ytid: "Gstcu4UTXRQ",
     },
     {
       title: "Intro to Game Design",

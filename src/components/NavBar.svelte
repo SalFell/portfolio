@@ -2,8 +2,8 @@
   // @ts-nocheck
   history.scrollRestoration = "manual" // Prevent automatic scrolling
   const navItems = [
-    { title: "About", url: "#About" }, // Scroll to section with id About
     { title: "Projects", url: "#Projects" }, // Scroll to section with id Projects
+    { title: "About", url: "#About" }, // Scroll to section with id About
   ];
 
   const socials = [
