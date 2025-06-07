@@ -10,9 +10,13 @@
     "deploy": "npx gh-pages -d dist"
   },
   "devDependencies": {
+    "@sveltejs/enhanced-img": "^0.6.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "gh-pages": "^6.3.0",
     "svelte": "^5.17.3",
     "vite": "^6.0.7"
+  },
+  "dependencies": {
+    "svelte-carousel": "^1.0.25"
   }
 }
