@@ -15,8 +15,5 @@
     "gh-pages": "^6.3.0",
     "svelte": "^5.17.3",
     "vite": "^6.0.7"
-  },
-  "dependencies": {
-    "svelte-carousel": "^1.0.25"
   }
 }

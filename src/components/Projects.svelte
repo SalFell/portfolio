@@ -22,7 +22,7 @@
       "Setup and managed version control for a team of 6 through Github\n"+
       "Delegated tasks based on priority while ensuring to outline expected task outcomes and to stay within the project's scope",
       url: "https://maruvail.itch.io/crabdash",
-      ytid: "",
+      ytid: "llS4CNA1IJU",
       media: mediaCrabDash,
     },
     {
