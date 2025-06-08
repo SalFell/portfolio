@@ -79,6 +79,7 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/{ytid}?si=aoe9CCV2Ww8U-78k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       {/if}
       <!-- Displaying media if available -->
+      <!-- 
       {#if media}
         <div class="container">
           <Slide image={image.imgurl} 
@@ -87,11 +88,11 @@
 						 slideNo={image.id+1} 
 						 totalSlides={mediaCrabDash.length} />
         </div>
-        <!-- Image text -->
+        <!-- Image text --!>
         <Caption caption={mediaCrabDash[imageShowingIndex].name}
           on:prevClick={prevSlide}
           on:nextClick={nextSlide} />
-        <!-- Thumbnail images -->
+        <!-- Thumbnail images --!>
         <div class="thumbnails-row">
             {#each mediaCrabDash as {id, imgurl, name, attribution}}
               <Thumbnail thumbImg={imgurl} 
@@ -103,6 +104,7 @@
             {/each}
         </div>
       {/if}
+      -->
       <ul>
         {#each description.split('\n') as line}
           <li>{line}</li>
